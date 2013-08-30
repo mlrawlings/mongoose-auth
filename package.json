@@ -1,0 +1,13 @@
+{
+  "name": "mongoose-auth",
+  "version": "0.0.1",
+  "description": "adds authentication to mongoose models",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r should -R spec"
+  },
+  "author": "Embark Web Solutions",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3"
+  }
+}
