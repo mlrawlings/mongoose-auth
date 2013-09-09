@@ -30,7 +30,7 @@ function getUserQuery(user, fields) {
 	var fields = fields.split('|')
 	  , query = {}
 	if(fields.length == 1) {
-		query[fields][0] = user
+		query[fields[0]] = user
 	} else {
 		query.$or = []
 		for(var i = 0; i < fields.length; i++) {
